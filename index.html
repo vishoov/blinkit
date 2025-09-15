@@ -4,136 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-<style>
-
-    * {
-        margin: 0;
-        padding: 0;
-
-        box-sizing: border-box;
-    }
-
-    body {
-        overflow-x: hidden;
-    }
-
-
-
-
-    nav {
-
-        width: 100vw;
-        height: 16vh;
-        position: sticky;
-        top: 0;
-        z-index: 1;
-        background-color: red;
-        display: flex;
-    }
-
-    .nav-loc {
-        letter-spacing: 0.01em;
-        font-weight: 800;
-        font-size: 1.2rem;
-        margin-top: 0.5rem;
-    }
-
-    .banners {
-        position: relative;
-        height: 84vh;
-        width: 100vw;
-        overflow: hidden;
-
-        margin: 0;
-        background-color: black;
-    }
-
-    .categories {
-        position: relative;
-        height: 60vh;
-        width: 100vw;
-        background-color: green;
-    }
-
-    .categories:hover {
-        background-color: yellow;
-    }
-
-    .logo {
-        height: 100%;
-        width: 14%;
-        border-right: 1px solid rgba(128, 128, 128, 0.146);
-        padding: 1rem;
-        padding-left: 1.2rem;
-        background-color: white;
-    }
-
-    .location {
-        height: 100%;
-        width: 23%;
-        background-color: white;
-        padding: 1rem;
-        padding-left: 1.5rem;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    .loc {
-        font-size: 0.9rem;
-        color: grey;
-        margin-top: 0.3rem;
-    }
-
-    .searchbar {
-        height: 100%;
-        width: 50%;
-        background-color: white;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .search-container {
-        width: 80%;
-        background-color: #F8F8F8;
-        padding: 0.1rem;
-        border-radius: 0.25rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: 1px solid rgba(128, 128, 128, 0.166);
-    }
-
-    .search-container input {
-        border: none;
-        background-color: #F8F8F8;
-        margin: 0.3rem;
-        width: 100%;
-    }
-
-    .buttons {
-        height: 100%;
-        width: 23%;
-        background-color: white;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-    }
-
-    .buttons button {
-        width: 35%;
-        height: 40%;
-        font-size: 1.2rem;
-        border: none;
-        border-radius: 0.25rem;
-        cursor: pointer;
-    }
-
-    .login {
-        background-color: transparent;
-        color: grey;
-    }
-</style>
-
+    <link rel="stylesheet" href="./style.css">
 
 </head>
 <body>
@@ -162,11 +33,87 @@
 
 
     <div class="banners">
-        <img src="./Group-33704.webp" alt="banner" style="width:100%; object-fit:fill;"/>
+        <img src="./Group-33704.webp" alt="banner" width="100%" style="width:100%; object-fit:fill;"/>
+    </div>
+
+    <div class="banners-2">
+       
+<div class="banner-img">        <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=720/layout-engine/2023-07/pharmacy-WEB.jpg" alt="banner" width="100%" style="width:100%; object-fit:fill;"/>
+</div>
+
+<div class="banner-img">
+        <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=720/layout-engine/2023-07/Pet-Care_WEB.jpg" alt="banner" width="100%" style="width:100%; object-fit:fill;"/>
+    </div>
+
+    <div class="banner-img">
+        <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=720/layout-engine/2023-03/babycare-WEB.jpg" alt="banner" width="100%" style=" object-fit:fill;"/>
+    </div>
     </div>
 
 <section class="categories" >
-
+    <div class="category-card">
+        <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-12/paan-corner_web.png" alt="category" />
+    </div>
+    <div class="category-card">
+        <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-11/Slice-2_10.png" alt="category" />
+    </div> <div class="category-card">
+        <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-12/paan-corner_web.png" alt="category" />
+    </div> <div class="category-card">
+        <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-12/paan-corner_web.png" alt="category" />
+    </div> <div class="category-card">
+        <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-12/paan-corner_web.png" alt="category" />
+    </div> <div class="category-card">
+        <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-12/paan-corner_web.png" alt="category" />
+    </div> <div class="category-card">
+        <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-12/paan-corner_web.png" alt="category" />
+    </div> <div class="category-card">
+        <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-12/paan-corner_web.png" alt="category" />
+    </div> <div class="category-card">
+        <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-12/paan-corner_web.png" alt="category" />
+    </div> <div class="category-card">
+        <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-12/paan-corner_web.png" alt="category" />
+    </div> <div class="category-card">
+        <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-12/paan-corner_web.png" alt="category" />
+    </div> <div class="category-card">
+        <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-12/paan-corner_web.png" alt="category" />
+    </div> <div class="category-card">
+        <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-12/paan-corner_web.png" alt="category" />
+    </div> <div class="category-card">
+        <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-12/paan-corner_web.png" alt="category" />
+    </div> <div class="category-card">
+        <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-12/paan-corner_web.png" alt="category" />
+    </div> <div class="category-card">
+        <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-12/paan-corner_web.png" alt="category" />
+    </div> <div class="category-card">
+        <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-12/paan-corner_web.png" alt="category" />
+    </div> <div class="category-card">
+        <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-12/paan-corner_web.png" alt="category" />
+    </div> <div class="category-card">
+        <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-12/paan-corner_web.png" alt="category" />
+    </div> <div class="category-card">
+        <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/layout-engine/2022-12/paan-corner_web.png" alt="category" />
+    </div>
 </section>
+
+
+    <section class="products">
+        <div class="heading">
+            <h1>Dairy, Breads & Egg</h1>
+            <button>see all</button>
+        </div>
+        <div class="product-slider">
+            <div class="product-card">
+                <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/da/cms-assets/cms/product/628c97e0-5ed4-425d-a667-1d3bfa6f0bde.png" alt="product" />
+                <div class="product-info">
+                    <p>8 mins</p>
+                    <h3>Amul Gold Full Cream</h3>
+                    <p style="color: grey;">500 ml</p>
+                    <h4>Rs.25</h4>
+                    <button>ADD</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </body>
 </html>
