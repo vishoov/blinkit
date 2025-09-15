@@ -197,9 +197,10 @@
 
 
     .products{
-        height: 60vh;
-        width: 100vw;
-        background-color: lightgrey;
+        height: 65vh;
+        /* width: 100vw; */
+
+        /* background-color: lightgrey; */
     }
 
     .heading{
@@ -225,14 +226,22 @@
     }
 
     .product-slider{
-        height: 90%;
-        width: 100%;
-        background-color:aqua;
+        height: 85%;
+        /* width: 100%; */
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        overflow-x: scroll;
+        scroll-behavior: smooth;
+        /* padding: 20px 0; */
+        scrollbar-width: none;
+        /* background-color:aqua; */
     }
 
     .product-card{
         height: 100%;
-        width: 17%;
+        width: 18%;
+        min-width: 200px;
         background-color: white;
         border: 1px solid grey;
         border-radius: 1rem;
@@ -280,4 +289,59 @@
         border: 1px solid green;
         color: green;
         border-radius: 0.5rem;
+    }
+
+/* 2nd approach of product card */
+
+    .product-card2{
+        height: 100%;
+        background-color: white;
+        border: 1px solid grey;
+        border-radius: 1rem;
+        width: 17%;
+    }
+
+    .product-card2 img{
+        width: 80%;
+        height:auto;
+        object-fit: contain;
+        margin: 0 10%;
+    }
+
+    .product-content{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 0 10px;
+    }
+
+    .partB{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .partB button{
+        border: 1px solid green;
+        color: green;
+        border-radius: 0.5rem;
+        height: 30px;
+        width: 80px;
+    }
+
+    .partA{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .partA h3{
+        font-weight: 300;
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .partA p{
+        font-weight: 300;
+        font-size: 0.9rem;
+        font-family: Arial, Helvetica, sans-serif;
     }
